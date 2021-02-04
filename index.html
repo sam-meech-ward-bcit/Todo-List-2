@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+  <link rel="stylesheet" href="style.css">
 
   <title>Agile Trainging</title>
 </head>
@@ -24,10 +25,10 @@
   
   </ul>
   
-  <form id="newTaskForm">
-    <label for="createTask">Create Task</label>
-    <input type="text" id="createTask">
-    <button type="submit">Create! 🤗</button>
+  <form id="newTaskForm" class="todo-list-form">
+    <label class="todo-list-form__label" for="createTask">Enter an item name</label>
+    <input class="todo-list-form__input" type="text" id="createTask">
+    <button class="todo-list-form__button" type="submit">ADD</button>
   </form>
 
 </main>
